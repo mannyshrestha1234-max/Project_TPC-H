@@ -11,6 +11,8 @@ Pivot Table:
 
 Chart: Line chart showing monthly revenue trend
 
+![image alt]()
+
 ## Analysis 2: Revenue by Region
 Data Source: monthly_revenue
 
@@ -21,6 +23,8 @@ Pivot Table:
 •	Values: Sum of Revenue
 
 Chart: Pie or Donut chart
+
+![image alt]()
 
 ## Analysis 3: Top 10 Customers
 Data Source: customer_summary
@@ -35,6 +39,8 @@ Pivot Table:
 
 Chart: Horizontal bar chart
 
+![image alt]()
+
 ## Analysis 4: Revenue by Customer Segment
 Data Source: customer_summary
 
@@ -45,6 +51,8 @@ Pivot Table:
 •	Values: Sum of Total_Revenue
 
 Chart: Column chart
+
+![image alt]()
 
 ## Analysis 5: Product Type Performance
 Data Source: product_summary
@@ -57,6 +65,8 @@ Pivot Table:
 
 Chart: Column chart showing revenue by product type
 
+![image alt]()
+
 ## Analysis 6: Top 15 Suppliers
 Data Source: supplier_summary
 
@@ -67,4 +77,6 @@ Pivot Table:
 •	Values: Sum of Total_Revenue, Sum of Part_Count
 
 •	Filter: Right-click on Supplier_Name → Value Filters → Top 10 (change to 15)
+
+![image alt]()
 
