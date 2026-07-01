@@ -1,7 +1,7 @@
 ## Page 1: Executive Summary
 Purpose: High-level KPIs and trends for executives
 
-Required Visualizations:
+Visualizations:
 
 -	Four KPI Cards: Display Total Revenue, Total Orders, Average Order Value, and Total Quantity Sold
 
@@ -16,7 +16,7 @@ Required Visualizations:
 ## Page 2: Product Analysis
 Purpose: Detailed product performance metrics
 
-Required Visualizations:
+Visualizations:
 
 -	Product Performance Table: Show Part Name, Total Revenue, Quantity Sold, and Average Price (use conditional formatting for top/bottom performers)
 
@@ -31,7 +31,7 @@ Required Visualizations:
 ## Page 3: Customer & Supplier Insights
 Purpose: Customer segmentation and supplier performance
 
-Required Visualizations:
+Visualizations:
 
 -	Customer Segmentation Clustered Column Chart: Revenue by Customer Market Segment (CUSTOMER[C_MKTSEGMENT])
 
