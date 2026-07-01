@@ -11,6 +11,8 @@ Visualizations:
 
 -	Revenue by Region Donut Chart: Show geographic distribution of sales
 
+- Global Slicers: Added slicers for Year (from O_ORDERDATE) and Region that filter all pages
+
 ## Page 2: Product Analysis
 Purpose: Detailed product performance metrics
 
