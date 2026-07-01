@@ -1,4 +1,4 @@
-# Pivot Tables and Charts
+# TPC-H Analysis with Pivot Tables and Charts
 
 ## Analysis 1: Revenue Trend Analysis
 Data Source: monthly_revenue
