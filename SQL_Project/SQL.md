@@ -62,7 +62,7 @@ LIMIT 10;
 ## Query 5: Validate Revenue by Region
 
 SELECT
-	r.R_NAME ,
+	r.R_NAME AS Region_Name,
 	SUM((l.L_EXTENDEDPRICE) * (1 - l.L_DISCOUNT )) AS Total_Revenue
 
 FROM LINEITEM l
@@ -306,4 +306,4 @@ WHERE Rank_Within_Type <= 3
 
 ORDER BY Product_Type, Rank_Within_Type;
 
-![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q14.jpg)
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/1bd36cd2fcd4113e911539880a81cfbe9d6b181e/assets/q15.jpg)
