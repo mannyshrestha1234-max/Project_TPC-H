@@ -35,6 +35,8 @@ SELECT
 
 FROM OrderTotals;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q3.jpg)
+
 ## Query 4: Validate Top 10 Customers by Revenue
 
 SELECT
@@ -54,6 +56,8 @@ GROUP BY c.C_NAME
 ORDER BY Total_Revenue DESC 
 
 LIMIT 10;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q4.jpg)
 
 ## Query 5: Validate Revenue by Region
 
@@ -77,6 +81,8 @@ JOIN REGION r
 
 GROUP BY r.R_NAME;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q5.jpg)
+
 ## Query 6: Validate Monthly Revenue Trend
 
 SELECT
@@ -91,6 +97,8 @@ JOIN LINEITEM l ON l.L_ORDERKEY = o.O_ORDERKEY
 GROUP BY EXTRACT(YEAR FROM o.O_ORDERDATE), EXTRACT(MONTH FROM o.O_ORDERDATE)
 
 ORDER BY YEAR, Month;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q6.jpg)
 
 ## Query 7: Product Performance Summary
 
@@ -115,6 +123,8 @@ ORDER BY TOTAL_REVENUE DESC
 
 LIMIT 20 ;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q7.jpg)
+
 ## Query 8: Revenue by Product Type
 
 WITH RevenueData AS (
@@ -135,6 +145,8 @@ FROM RevenueData
 
 ORDER BY Total_Revenue DESC;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q8.jpg)
+
 ## Query 9: Top 5 Products by Revenue
 
 SELECT
@@ -152,6 +164,8 @@ ORDER BY Total_Revenue DESC
 
 LIMIT 5;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q9.jpg)
+
 ## Query 10: Revenue by Customer Market Segment
 
 SELECT
@@ -167,6 +181,8 @@ JOIN CUSTOMER c
 	ON c.C_CUSTKEY = o.O_CUSTKEY 
 
 GROUP BY MARKET_SEGMENT ;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q10.jpg)
 
 ## Query 11: Top Suppliers Analysis
 
@@ -201,6 +217,8 @@ ORDER BY TOTAL_REVENUE DESC
 
 LIMIT 15 ;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q11.jpg)
+
 ## Query 12: Customer Count by Country
 
 SELECT
@@ -216,6 +234,8 @@ GROUP BY NATION_NAME
 
 ORDER BY NATION_NAME ASC ;
 
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q12.jpg)
+
 ## Query 13: Order Priority Distribution
 
 SELECT 
@@ -228,6 +248,8 @@ FROM ORDERS o
 GROUP BY o.O_ORDERPRIORITY 
 
 ORDER BY Priority_Count DESC;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q13.jpg)
 
 ## Query 14: Customer Lifetime Value --
 
@@ -253,6 +275,8 @@ GROUP BY
 ORDER BY Total_Revenue DESC 
 
 LIMIT 25;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q14.jpg)
 
 ## Query 15: Top Products by Product Type (Using Window Functions)
 
@@ -281,3 +305,5 @@ FROM ProductRevenue
 WHERE Rank_Within_Type <= 3
 
 ORDER BY Product_Type, Rank_Within_Type;
+
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q14.jpg)
