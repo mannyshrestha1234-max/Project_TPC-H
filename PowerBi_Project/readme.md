@@ -5,28 +5,26 @@ Visualizations:
 
 -	Four KPI Cards: Display Total Revenue, Total Orders, Average Order Value, and Total Quantity Sold
 
--	Revenue Trend Line Chart: Monthly revenue over time (use ORDERS[O_ORDERDATE])
+-	Revenue Trend Line Chart: Monthly revenue over time
 
--	Top 10 Customers Bar Chart: Show revenue by customer name (horizontal bars preferred)
+-	Top 10 Customers Bar Chart: Show revenue by customer name 
 
 -	Revenue by Region Donut Chart: Show geographic distribution of sales
-
--	Global Slicers: Add slicers for Year (from O_ORDERDATE) and Region that filter all pages
 
 ## Page 2: Product Analysis
 Purpose: Detailed product performance metrics
 
 Visualizations:
 
--	Product Performance Table: Show Part Name, Total Revenue, Quantity Sold, and Average Price (use conditional formatting for top/bottom performers)
+-	Product Performance Table: Show Part Name, Total Revenue, Quantity Sold, and Average Pric
 
--	Revenue by Product Type Column Chart: Use PART[P_TYPE] field
+-	Revenue by Product Type Column Chart: Used PART[P_TYPE] field
 
 -	Quantity vs. Revenue Scatter Plot: X-axis: Quantity Sold, Y-axis: Revenue, Size: Number of Orders, by Part Name
 
 -	Top 5 Parts by Revenue Card: Show top 5 product names with revenue
 
--	Page-Level Slicer: Add a slicer for Product Type (P_TYPE) that only filters this page
+-	Page-Level Slicer: Added a slicer for Product Type (P_TYPE) that only filters this page
 
 ## Page 3: Customer & Supplier Insights
 Purpose: Customer segmentation and supplier performance
