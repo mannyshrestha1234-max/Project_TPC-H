@@ -81,7 +81,7 @@ JOIN REGION r
 
 GROUP BY r.R_NAME;
 
-![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/7b8534a48a667b68e0bde5cbd03f87b4d3462dbd/assets/q5.jpg)
+![image alt](https://github.com/mannyshrestha1234-max/Project_TPC-H/blob/aeee265f1a45a6c0ab6e5e496be92e0f461de5bc/assets/q5.jpg)
 
 ## Query 6: Validate Monthly Revenue Trend
 
